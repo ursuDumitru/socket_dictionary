@@ -19,3 +19,19 @@ Serverul va fi concurent
 - w       <cuvant>      -   afiseaza toate cuvintele
 - g       <cuvant>      -   afiseaza definitia cuvantului <cuvant>
 - e                     -   iese din program
+
+## Compilare
+
+Pentru a compila proiectul, se va rula :
+``` bash
+make
+```
+
+Iar pentru a rula serverul :
+``` bash
+make run_server
+```
+si pentru a rula clientul :
+``` bash
+make run_client
+```
