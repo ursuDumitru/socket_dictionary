@@ -58,11 +58,6 @@ void handleClient(int clientSocket, Dictionary *dict)
 
     while (1)
     {
-        // TODO - make client send a message when it disconnects
-        //      - implement a way for the client to get a word with its definition
-        //      - implement a way for the client to get all words with their definitions
-        //      - add the word in the server response to the client
-
         // Receive client request
         bytesReceived = recv(clientSocket, &inCommand, MAX_BUFFER_SIZE, 0);
 
